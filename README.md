@@ -16,3 +16,19 @@
 
 ## 📁 Project Structure
 
+talentscout-chatbot/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── app.py
+├── .streamlit/
+│   ├── config.toml
+├── utils/
+│   ├── helper.py
+│   ├── model_utils.py
+├── assets/
+│   ├── logo.png
+├── data/
+│   ├── sample_resume.pdf
+├── models/
+│   ├── candidate_match_model.pkl
