@@ -1,19 +1,18 @@
-# TalentScout Chatbot
+## TalentScout Chatbot 🧠💼
 
-This is an intelligent Hiring Assistant chatbot developed using Streamlit and OpenAI LLM. The chatbot assists in screening candidates based on the tech stack input provided.
+**TalentScout** is an AI-powered hiring assistant chatbot built with **Streamlit** and **OpenAI’s language models**. Designed to simplify and enhance the candidate screening process, this chatbot interacts with the user to gather a required tech stack and intelligently evaluates candidate profiles based on their relevance.
 
-## Features
+---
 
-- Candidate screening based on technical skills.
-- Integration with OpenAI models.
-- Easy-to-use interface built with Streamlit.
+## 📌 Key Features
 
-## Setup
+- ✅ **LLM-Based Candidate Screening**: Uses OpenAI’s GPT models to assess whether candidates meet technical requirements.
+- 🧾 **User-Friendly Interface**: Built with Streamlit for easy use by HR professionals and recruiters.
+- 🔍 **Input-Based Matching**: You provide a list of required technologies or skills, and the bot analyzes candidate suitability.
+- 🔐 **Secure Credential Handling**: API keys are stored securely using `.streamlit/secrets.toml`.
+- ☁️ **Deployable to Streamlit Cloud**: Fast and easy deployment with no need for backend setup.
 
-1. Clone the repository.
-2. Install required packages using `pip install -r requirements.txt`.
-3. Run the application with `streamlit run app.py`.
+---
 
-## License
+## 📁 Project Structure
 
-This project is licensed under the MIT License.
